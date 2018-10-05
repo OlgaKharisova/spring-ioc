@@ -12,9 +12,7 @@ public class Main {
 
         System.out.println("_________________________");
 
-
         KeyboardsAdapter keyboardsAdapter = new KeyboardsAdapter(chineseKeyboard);
-
 
         keyboardUser.useKeyboard(keyboardsAdapter);
 

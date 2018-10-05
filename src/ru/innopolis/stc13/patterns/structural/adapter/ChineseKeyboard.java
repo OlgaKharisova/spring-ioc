@@ -4,8 +4,7 @@ public class ChineseKeyboard {
 
     String buttonCount;
 
-    public ChineseKeyboard() {
-    }
+    public ChineseKeyboard() {}
 
     public ChineseKeyboard(String buttonCount) {
         this.buttonCount = buttonCount;
@@ -20,6 +19,6 @@ public class ChineseKeyboard {
     }
 
     void chineseTap(String button) {
-        System.out.println(button+ " chinesePressed");
+        System.out.println(button + " chinesePressed");
     }
 }

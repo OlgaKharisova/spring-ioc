@@ -4,6 +4,8 @@ public class KeyboardsAdapter implements Keyboard {
 
     ChineseKeyboard chineseKeyboard;
 
+    public KeyboardsAdapter() {}
+
     public KeyboardsAdapter(ChineseKeyboard keyboard) {
         this.chineseKeyboard = keyboard;
     }
@@ -13,8 +15,5 @@ public class KeyboardsAdapter implements Keyboard {
         for (int i =0; i < count; i++) {
             chineseKeyboard.chineseTap(code);
         }
-    }
-
-    public KeyboardsAdapter() {
     }
 }

@@ -4,8 +4,7 @@ public class KeyboardImpl implements Keyboard {
 
     Integer buttonCount;
 
-    public KeyboardImpl() {
-    }
+    public KeyboardImpl() {}
 
     public KeyboardImpl(Integer buttonCount) {
         this.buttonCount = buttonCount;
