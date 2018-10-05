@@ -1,4 +1,4 @@
-package factory;
+package ru.innopolis.stc13.patterns.creational.factory;
 
 public abstract class Pizza {
     private String dough;
