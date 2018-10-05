@@ -7,7 +7,6 @@ public class PizzaFactory {
                 return new PizzaPepperoni(true);
             case "margarita":
                 return new PizzaMargarita("testo",true);
-
         }
         return null;
     }
