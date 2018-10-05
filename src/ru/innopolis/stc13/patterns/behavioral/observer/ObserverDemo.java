@@ -20,6 +20,5 @@ public class ObserverDemo {
         pub.removeSubscriber(vova);
         pub.removeSubscriber(pasha);
         pub.notifySubscribers(new Event("05.10.18, 23:00", "Bar 108"));
-
     }
 }
