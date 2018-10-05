@@ -1,4 +1,4 @@
-package ru.innopolis.stc13.patterns.structural.interface_pattern;
+package ru.innopolis.stc13.patterns.fundamental.interface_pattern;
 
 public class FigureIml implements Figure {
     @Override
