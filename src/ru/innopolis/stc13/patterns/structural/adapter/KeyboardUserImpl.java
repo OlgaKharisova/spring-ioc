@@ -1,8 +1,8 @@
-package GoF.adapter;
+package ru.innopolis.stc13.patterns.structural.adapter;
 
 public class KeyboardUserImpl implements KeyboardUser {
 
-    public KeyboardUserImpl() { }
+    public KeyboardUserImpl() {}
 
     @Override
     public void useKeyboard(Keyboard keyboard) {
