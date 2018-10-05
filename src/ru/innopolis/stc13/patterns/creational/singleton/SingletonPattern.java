@@ -4,6 +4,10 @@ public class SingletonPattern {
 
     private static SingletonPattern ourInstance = null;
 
+    private SingletonPattern() {
+    }
+
+
     public static SingletonPattern getInstance() {
         synchronized (SingletonPattern.class) {
             if (ourInstance == null) {
@@ -11,8 +15,5 @@ public class SingletonPattern {
             }
         }
         return ourInstance;
-    }
-
-    private SingletonPattern() {
     }
 }
