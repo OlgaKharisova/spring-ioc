@@ -1,8 +1,8 @@
-package decorator;
+package ru.innopolis.stc13.patterns.structural.decorator;
 
-import decorator.decorator.WithCucumber;
-import decorator.decorator.WithJalapeno;
-import decorator.pizza.PizzaRussian;
+import ru.innopolis.stc13.patterns.structural.decorator.decorator.WithCucumber;
+import ru.innopolis.stc13.patterns.structural.decorator.decorator.WithJalapeno;
+import ru.innopolis.stc13.patterns.structural.decorator.pizza.PizzaRussian;
 
 public class Main {
 
@@ -11,8 +11,6 @@ public class Main {
         pizza = new WithCucumber(pizza);
         pizza = new WithJalapeno(pizza);
         pizza = new WithCucumber(pizza);
-
         System.out.println(pizza.getDescription() + " цена:" + pizza.cost());
-
     }
 }

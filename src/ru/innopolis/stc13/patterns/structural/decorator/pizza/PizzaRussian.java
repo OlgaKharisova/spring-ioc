@@ -1,6 +1,6 @@
-package decorator.pizza;
+package ru.innopolis.stc13.patterns.structural.decorator.pizza;
 
-import decorator.Pizza;
+import ru.innopolis.stc13.patterns.structural.decorator.Pizza;
 
 public class PizzaRussian extends Pizza {
 
