@@ -9,9 +9,7 @@ import ru.innopolis.stc13.patterns.behavioral.observer.subscriber.SubscriberImpl
 public class ObserverDemo {
 
     public static void main(String[] args) {
-
         Publisher pub = new PublisherImpl();
-
         Subscriber vova = new SubscriberImpl("junior Vova");
         Subscriber pasha = new SubscriberImpl("junior Pasha");
         pub.addSubscriber(new SubscriberImpl("junior Vasya"));
