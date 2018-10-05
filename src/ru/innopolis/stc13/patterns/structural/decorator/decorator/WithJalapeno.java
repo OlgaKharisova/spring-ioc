@@ -1,7 +1,7 @@
-package decorator.decorator;
+package ru.innopolis.stc13.patterns.structural.decorator.decorator;
 
-import decorator.Decorator;
-import decorator.Pizza;
+import ru.innopolis.stc13.patterns.structural.decorator.Decorator;
+import ru.innopolis.stc13.patterns.structural.decorator.Pizza;
 
 public class WithJalapeno extends Decorator {
 
@@ -13,8 +13,7 @@ public class WithJalapeno extends Decorator {
 
     @Override
     public String getDescription() {
-
-        return pizza.getDescription()+", с халапеньо";
+        return pizza.getDescription() + ", с халапеньо";
     }
 
     @Override

@@ -1,4 +1,4 @@
-package decorator;
+package ru.innopolis.stc13.patterns.structural.decorator;
 
 public abstract class Pizza {
 
