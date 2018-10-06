@@ -1,6 +1,5 @@
 package ru.innopolis.stc13.patterns.creational.abstract_factory;
 
-
 public class CaliforniaFactory extends AbstractFactory {
     @Override
     Pizza createPizza(String type) {
