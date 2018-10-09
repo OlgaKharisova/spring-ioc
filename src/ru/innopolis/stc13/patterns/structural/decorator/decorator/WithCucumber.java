@@ -1,8 +1,10 @@
 package ru.innopolis.stc13.patterns.structural.decorator.decorator;
 
+import org.springframework.stereotype.Component;
 import ru.innopolis.stc13.patterns.structural.decorator.Decorator;
 import ru.innopolis.stc13.patterns.structural.decorator.Pizza;
 
+@Component
 public class WithCucumber extends Decorator {
 
     private Pizza pizza;
