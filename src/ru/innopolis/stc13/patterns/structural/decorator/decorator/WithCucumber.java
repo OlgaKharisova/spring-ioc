@@ -11,6 +11,17 @@ public class WithCucumber extends Decorator {
         this.pizza = pizza;
     }
 
+    public WithCucumber() {
+    }
+
+    public Pizza getPizza() {
+        return pizza;
+    }
+
+    public void setPizza(Pizza pizza) {
+        this.pizza = pizza;
+    }
+
     @Override
     public String getDescription() {
         return pizza.getDescription() + ", с соленым огурцом";

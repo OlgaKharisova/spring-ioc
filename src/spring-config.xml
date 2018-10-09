@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <beans>
+        <bean id="pizzaRussian" name="pizzaRussian" class="ru.innopolis.stc13.patterns.structural.decorator.pizza.PizzaRussian"/>
+        <bean id="pizzaItalian" name="pizzaItalian" class="ru.innopolis.stc13.patterns.structural.decorator.pizza.PizzaItalian"/>
+        <bean id="pizzaAmerican" name="pizzaAmerican" class="ru.innopolis.stc13.patterns.structural.decorator.pizza.PizzaAmerican"/>
+
+        <bean id="withCucumber" name="withCucumber" class="ru.innopolis.stc13.patterns.structural.decorator.decorator.WithCucumber"/>
+        <bean id="withDoubleCheese" name="withDoubleCheese" class="ru.innopolis.stc13.patterns.structural.decorator.decorator.WithDoubleCheese"/>
+        <bean id="withJalapeno" name="withJalapeno" class="ru.innopolis.stc13.patterns.structural.decorator.decorator.WithJalapeno"/>
+    </beans>
+</beans>

@@ -7,6 +7,17 @@ public class WithJalapeno extends Decorator {
 
     private Pizza pizza;
 
+    public WithJalapeno() {
+    }
+
+    public Pizza getPizza() {
+        return pizza;
+    }
+
+    public void setPizza(Pizza pizza) {
+        this.pizza = pizza;
+    }
+
     public WithJalapeno(Pizza pizza) {
         this.pizza = pizza;
     }

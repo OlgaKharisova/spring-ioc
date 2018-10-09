@@ -7,6 +7,17 @@ public class WithDoubleCheese extends Decorator {
 
     private Pizza pizza;
 
+    public WithDoubleCheese() {
+    }
+
+    public Pizza getPizza() {
+        return pizza;
+    }
+
+    public void setPizza(Pizza pizza) {
+        this.pizza = pizza;
+    }
+
     public WithDoubleCheese(Pizza pizza) {
         this.pizza = pizza;
     }
